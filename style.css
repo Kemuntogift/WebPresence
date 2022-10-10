@@ -1,4 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+    background: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    border: solid red;
+}
+
+.content {
+    height: 94%;
+    width: 96%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbar p {
+    text-decoration: none;
+    background: white;
+    width: 20%;
+    padding: 10px 20px;
+    text-align: center;
 }
