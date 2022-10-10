@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    border: solid red;
 }
 
 .navbar {
@@ -47,6 +46,7 @@
 
 .second-side .card {
     height: 50%;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,11 +91,13 @@ i {
 
 .third-sec {
     display: flex;
-    gap: 18px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 .third-sec .card {
-    height: 200px;
+    height: 30vh;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
